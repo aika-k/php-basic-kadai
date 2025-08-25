@@ -11,13 +11,13 @@
         <?php
         function sort_2way(array $nums, bool $order) {
           if ($order === true){
-            echo '昇順にソートします' . "<br>";
             sort($nums);
+            echo '昇順にソートします' . "<br>";
 
           } else {
             rsort($nums);
             echo '降順にソートします' . "<br>";
-            rsort($nums);
+            
           }
 
 
